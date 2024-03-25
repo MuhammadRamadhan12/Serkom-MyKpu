@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/teal_200"/> <!-- Warna saat tombol ditekan -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/teal_700"/> <!-- Warna default tombol -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</selector>

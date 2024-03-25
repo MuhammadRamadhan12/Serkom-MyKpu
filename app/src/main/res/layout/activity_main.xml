@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="logo"
+        android:src="@drawable/kpu" />
+
+    <Button
+        android:id="@+id/buttonInformasi"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="8dp"
+        android:text="Informasi Pemilihan Umum"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonFormEntry"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/input"
+        android:drawablePadding="8dp"
+        android:text="Form Entri Data Calon Pemilih"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonLihatData"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/list"
+        android:drawablePadding="8dp"
+        android:text="Melihat Informasi Data Pemilih"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonKeluar"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/exit"
+        android:drawablePadding="8dp"
+        android:text="Keluar"
+        android:padding="8dp"/>
+</LinearLayout>
